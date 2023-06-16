@@ -62,15 +62,15 @@
   float: none;
 }
 .task8 .item2 {
-  position: absolute;
+  position: relative;
   height: 120px;
-  top: 0;
-  right: 0;
+  bottom: 80;
+  left: 650px;
   float: none;
 }
 
 .task8 p {
-  clear: both;
+  clear: none;
 }
 
 .task9 .item1 {
@@ -78,9 +78,9 @@
   float: left;
 }
 .task9 .item2 {
-  position: absolute;
+  position: relative;
   top: 0;
-  right: 0;
+  left: 650;
   float: none;
 }
 .task9 p {
@@ -91,14 +91,14 @@
   float: none;
 }
 .task10 .item2 {
-  height: 200px;
-  position: absolute;
+  /* height: 200px; */
+  position: relative;
   top: 0;
-  right: 0;
+  left: 0;
   float: right;
 }
 .task10 p {
-  clear: right;
+  clear: none;
 }
 
 .task11 .img-item {
